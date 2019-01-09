@@ -1,0 +1,10 @@
+.picture-card{
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

@@ -7,10 +7,36 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url(./images/backgrounds/prism.png);
-  overflow:hidden;
+  overflow-x:hidden;
 }
-
+.jumbotron{
+  background-image: url(./images/backgrounds/prism.png);
+  color: whitesmoke;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.footer {
+  background: #6956af;
+  height: 100px;
+  position: relative;
+  color: #fff;
+  overflow: auto;
+}
+
+.footer>.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#212529;;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
