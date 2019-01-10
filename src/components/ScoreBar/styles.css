@@ -1,0 +1,54 @@
+
+.navbar-brand{
+    text-decoration: none;
+    margin-left: 1%;
+}
+body{
+    font-size: 1em ;
+}
+
+.navbar-dark{
+    position:fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+}
+
+.score-bar{
+    color : whitesmoke;
+    font-size: 2em ;
+    margin-right: 40px;
+}
+.nav-item{
+    color : whitesmoke;
+    font-size: 2em ;
+}
+@media only screen and (max-width: 910px){
+    .nav-item{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    body{
+        font-size: 12px ;
+    }
+}
+@media only screen and (max-width: 840px){
+    .nav-item{
+        margin-right: auto;
+        margin-left: auto;
+        width:100%;
+    }
+    body{
+        font-size: 12px ;
+    }
+}
+@media only screen and (max-width: 600px){
+    .nav-item{
+        margin-right: auto;
+        margin-left: auto;
+        width:100%;
+    }
+    body{
+        font-size: .5em ;
+    }
+}

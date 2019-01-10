@@ -1,19 +1,31 @@
 {
-  "name": "react-memory-game",
-  "version": "1.0.0",
-  "description": "This is app is a game where the user clicks must click on all 12 images without clicking on the same image twice. ",
-  "main": "index.js",
+  "name": "memory-game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "file-loader": "^3.0.1",
+    "gh-pages": "^2.0.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dunkeltron/react-memory-game.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "Ian Dunkelberg",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dunkeltron/react-memory-game/issues"
-  },
-  "homepage": "https://github.com/dunkeltron/react-memory-game#readme"
+  "homepage": "https://dunkeltron.github.io/react-memory-game/.",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
