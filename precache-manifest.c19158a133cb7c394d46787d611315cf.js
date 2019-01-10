@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-memory-game/./static/media/optimus_prime.21e07227.png"
   },
   {
-    "revision": "47a8c2fb3c3179493387",
-    "url": "/react-memory-game/./static/css/main.a72f02af.chunk.css"
+    "revision": "ebe4c4fcbb40bbb1edcd",
+    "url": "/react-memory-game/./static/css/main.7cdbad61.chunk.css"
   },
   {
     "revision": "ebf92a2a080bdfd80192",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/react-memory-game/./static/media/megatron.b8b2586b.png"
   },
   {
-    "revision": "47a8c2fb3c3179493387",
-    "url": "/react-memory-game/./static/js/main.47a8c2fb.chunk.js"
+    "revision": "ebe4c4fcbb40bbb1edcd",
+    "url": "/react-memory-game/./static/js/main.ebe4c4fc.chunk.js"
   },
   {
     "revision": "fe999bdc30765f37bc442785e39025cf",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/react-memory-game/./static/media/wheeljack.9c59d0b2.png"
   },
   {
-    "revision": "86624e57e9fc95ed8f774df1ed3380ca",
+    "revision": "0e7335d57bcef0f8e188258c00e91b40",
     "url": "/react-memory-game/./index.html"
   }
 ];
