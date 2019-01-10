@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import GameCard from "../GameCard";
 import "./panelStyles.css";
 import Bumblebee from "./bumblebee.png";
 import Devastator from "./devastator.png";
