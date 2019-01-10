@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScoreBar from "../ScoreBar";
 import "./panelStyles.css";
 import Bumblebee from "./bumblebee.png";
 import Devastator from "./devastator.png";
@@ -81,6 +82,8 @@ class GamePanel extends Component {
       //after updating the score check if the player won
       if(this.isGameOver()){
         console.log("You are the champion!");
+        this.setState({wins: this.state.wins+1})
+        this.resetGame();
       }
       else{
         //we want to update the clicked status of the clicked card in our initialCards state array
@@ -137,7 +140,20 @@ class GamePanel extends Component {
   }
   render() {
     return (
-      <div className ="game-block">
+      <React.Fragment>
+      
+      <div>
+        <ScoreBar wins={this.state.wins}score={this.state.score} topScore = {this.state.topScore}/>
+      </div>
+      
+      <div className = "jumbotron">
+        <h1 className= "title">Clicky Game!</h1>
+        <h2 className= "subtitle">Click on an image to earn points, but don't click on any more than once!</h2>
+      
+      </div>
+    
+
+      <div className ="game-block panel-container group">
           { 
             //add the cards to the page in the order in which they appear in this.state.cards
             //This is what handles the position shuffling of the images.
@@ -148,6 +164,7 @@ class GamePanel extends Component {
           ))}
 
       </div>
+      </React.Fragment>
     );
   }
 }

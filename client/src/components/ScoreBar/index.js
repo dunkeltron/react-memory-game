@@ -3,10 +3,10 @@ import "./styles.css";
 
 class ScoreBar extends Component {
   state = {
-    score: 0,
-    topScore: 0,
+    score: this.props.score,
+    topScore: this.props.topScore,
     infoText: "Click a character to start!",
-    wins:0
+    wins: this.props.wins
   };
   getState(){
     return this.state;
@@ -17,17 +17,11 @@ class ScoreBar extends Component {
       topScore,
       infoText
     } = this.getState();
-    score++;
     if (score === 12) {
       this.winningClick();
     } else {
-      if (score > topScore) {
-        topScore = score;
-      }
       infoText = "You guessed correctly";
       this.setState({
-        score,
-        topScore,
         infoText
       });
     }
@@ -35,25 +29,26 @@ class ScoreBar extends Component {
 
   incorrectClick(){
     var {score ,topScore, infoText} = this.getState();
-    if(score > topScore){
-      topScore=score;
-    }
-    score=0;
     infoText = "You guessed incorrectly";
-    this.setState({score,topScore,infoText});
+    this.setState({score ,topScore, infoText});
   }
   winnerClick(){
     var {score ,topScore, infoText,wins} = this.getState();
     infoText = "You Won! Click again to start over."
-    wins++;
-    score = 0;
-    topScore = 0;
     console.log("You won! This is win number  "+ wins + " for you. Congratulations!");
     this.setState({score,topScore,infoText,wins})
   }
 
   componentDidMount() {
     window.addEventListener("resize", this.updateWidth);
+    console.log("state",this.state);
+    console.log("props",this.props);
+    this.setState({
+            score: this.props.score,
+            topScore: this.props.topScore,
+            infoText: "Click a character to start!",
+            wins: this.props.wins
+    });
   }
 
   componentWillUnMount() {
@@ -71,7 +66,7 @@ class ScoreBar extends Component {
               {this.state.infoText}
         </p>
         <p className="nav-item score-bar ml-auto" >
-          Score: {this.state.score} | Top Score: {this.state.topScore}
+          Score: {this.props.score} | Top Score: {this.props.topScore}
         </p>
           
         </div>
