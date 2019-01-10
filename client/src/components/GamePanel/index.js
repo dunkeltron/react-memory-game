@@ -153,7 +153,8 @@ class GamePanel extends Component {
       </div>
     
 
-      <div className ="game-block panel-container group">
+      <div className ="panel-container group">
+      <div className = "game-block">
           { 
             //add the cards to the page in the order in which they appear in this.state.cards
             //This is what handles the position shuffling of the images.
@@ -162,7 +163,7 @@ class GamePanel extends Component {
                 <img id={card.id}  className = {card.altText} src={card.href} alt={card.altText}></img>
               </div>
           ))}
-
+        </div>
       </div>
       </React.Fragment>
     );

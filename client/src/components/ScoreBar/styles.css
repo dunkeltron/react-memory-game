@@ -4,6 +4,13 @@
     margin-left: 40px;
 }
 
+.navbar-dark{
+    position:fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+}
+
 .score-bar{
     color : whitesmoke;
     font-size: 2em ;
