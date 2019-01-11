@@ -153,7 +153,7 @@ class GamePanel extends Component {
       
       <div className = "jumbotron">
         <h1 className= "title">Clicky Game!</h1>
-        <h2 className= "subtitle">Click on an image to earn points, but don't click on any more than once!</h2>
+        <h2 className= "subtitle">Click on an image to earn points, but don't click on the same character twice!</h2>
       
       </div>
     

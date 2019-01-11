@@ -8,21 +8,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url(./images/backgrounds/prism.png);
   overflow-x:hidden;
-}
-.jumbotron{
-  background-image: url(./images/backgrounds/prism.png);
-  color: whitesmoke;
+  overflow-y: scroll;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 .footer {
-  background: #6956af;
-  height: 75px;
-  position: relative;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   color: #fff;
-  overflow: auto;
+  margin-top:auto;
 }
 
 .footer>.bottom {
@@ -30,7 +29,7 @@ code {
   bottom: 0;
   left: 0;
   right: 0;
-  background:#212529;;
+  background:#212529;
 }
 
 .group:after {
@@ -38,5 +37,32 @@ code {
   display: table;
   clear: both;
 }
+
+
+
+@media only screen and (max-width: 840px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .bottom {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  footer{
+    display:none;
+  }
+}
+
+
 
 

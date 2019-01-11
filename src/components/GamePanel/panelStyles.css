@@ -3,6 +3,10 @@
     justify-content: center;
     
 }
+.jumbotron{
+    background-image: url(../../images/backgrounds/prism.png);
+    color: whitesmoke;
+  }
 .panel-container{
     justify-content: center;
     
@@ -12,7 +16,7 @@
     height: 175px;
     display: inline-flex;
     margin:1.5%  1.5%  0% 1.5% ;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 img{
     width: 100%;
@@ -26,10 +30,21 @@ img{
     
     }
   }
-  @media only screen and (max-width:840px){
+  @media only screen and (max-width:991px) {
+    .jumbotron{
+        display: none;
+      }
       .panel-container{
         margin-top:150px;
       }
+  }
+  @media only screen and (max-width:840px){
+      
+      .nav-item{
+          margin-bottom:0;
+          padding-bottom:0;
+      }
+      
     
   }
   @media only screen and (max-width: 600px) {
@@ -43,7 +58,6 @@ img{
         height: 100px;
     
     }
-    .jumbotron{
-        display: none;
-      }
+    
   }
+ 

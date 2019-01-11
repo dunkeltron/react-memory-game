@@ -57,17 +57,17 @@ class ScoreBar extends Component {
   render() {
     return (
       <nav className="navbar-dark bg-dark">
-      <div className = "row">
-        <a className="navbar-brand  nav-item mr-auto" href="/">
+      <div className = "row justify-content-center">
+        <a className="navbar-brand  nav-item " href="/">
           Clicky Game
         </a>  
         <p className="nav-item info-text">
               {this.props.infoText}
         </p>
-        <p className="nav-item score-bar ml-auto" >
+        <p className="nav-item score-bar " >
           Score: {this.props.score} | Top Score: {this.props.topScore}
         </p>
-          
+
         </div>
       </nav>
     );

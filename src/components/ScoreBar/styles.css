@@ -1,50 +1,41 @@
 
 .navbar-brand{
     text-decoration: none;
-    margin-left: 1%;
+    width:20%;
+    margin-left: 40px;
+    margin-right:5%;
 }
-body{
-    font-size: 1em ;
+.nav-item{
+    font-size: 1.5em ;
+    color : whitesmoke;
 }
 
 .navbar-dark{
+    justify-content: center;
     position:fixed;
     top:0px;
     right:0px;
     left:0px;
 }
+.info-text{
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+}
 
 .score-bar{
     color : whitesmoke;
-    font-size: 2em ;
     margin-right: 40px;
+    width:25%;
 }
-.nav-item{
-    color : whitesmoke;
-    font-size: 2em ;
-}
-@media only screen and (max-width: 1000px){
-    body{
-        font-size: 12px ;
-    }
-}
+
+
 @media only screen and (max-width: 910px){
     .nav-item{
         margin-right: auto;
         margin-left: auto;
-    }
-    body{
-        font-size: 12px ;
-    }
-}
-@media only screen and (max-width: 840px){
-    .nav-item{
-        margin-right: auto;
-        margin-left: auto;
         width:100%;
-    }
-    body{
-        font-size: 12px ;
+        font-size: 1.5em;
     }
 }
 @media only screen and (max-width: 600px){
@@ -54,6 +45,6 @@ body{
         width:100%;
     }
     body{
-        font-size: .5em ;
+        font-size: .75em ;
     }
 }

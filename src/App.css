@@ -14,7 +14,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -33,82 +32,9 @@ body {
   background-image: url(./images/backgrounds/prism.png);
   overflow-x:hidden;
 }
-.jumbotron{
-  background-image: url(./images/backgrounds/prism.png);
-  color: whitesmoke;
-}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-.footer {
-  height: 75px;
-  position: absolute;
-  bottom: 0;
-  color: #fff;
-  left: 0;
-  right: 0;
-  overflow: auto;
-}
-
-footer{
-  margin-top:auto;
-}
-.bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background:#212529;;
-}
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-@media only screen and (max-width: 1000px) {
-  .footer {
-    height: 75px;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .bottom {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  body{
-    overflow-y: scroll;
-    font-size:12px
-  }
-
-}
-@media only screen and (max-width: 840px) {
-  .jumbotron{
-    display: none;
-  }
-  
-}
-@media only screen and (max-width: 600px) {
-  
-  .footer {
-    position: absolute;
-  }
-  
-  .bottom {
-    position: absolute;
-  }
-  body{
-    overflow-y: scroll;
-  }
 }
 @keyframes App-logo-spin {
   from {
