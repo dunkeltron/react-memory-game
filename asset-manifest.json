@@ -1,7 +1,7 @@
 {
-  "main.css": "/react-memory-game/./static/css/main.e1a7af94.chunk.css",
-  "main.js": "/react-memory-game/./static/js/main.fd6fc347.chunk.js",
-  "main.js.map": "/react-memory-game/./static/js/main.fd6fc347.chunk.js.map",
+  "main.css": "/react-memory-game/./static/css/main.9d96e31b.chunk.css",
+  "main.js": "/react-memory-game/./static/js/main.dfa5b340.chunk.js",
+  "main.js.map": "/react-memory-game/./static/js/main.dfa5b340.chunk.js.map",
   "static/js/1.ebf92a2a.chunk.js": "/react-memory-game/./static/js/1.ebf92a2a.chunk.js",
   "static/js/1.ebf92a2a.chunk.js.map": "/react-memory-game/./static/js/1.ebf92a2a.chunk.js.map",
   "runtime~main.js": "/react-memory-game/./static/js/runtime~main.f84cbdf2.js",
@@ -18,8 +18,8 @@
   "static/media/thundercracker.png": "/react-memory-game/./static/media/thundercracker.af833498.png",
   "static/media/ultra_magnus.png": "/react-memory-game/./static/media/ultra_magnus.bd338ed6.png",
   "static/media/devastator.png": "/react-memory-game/./static/media/devastator.adee3d35.png",
-  "static/css/main.e1a7af94.chunk.css.map": "/react-memory-game/./static/css/main.e1a7af94.chunk.css.map",
+  "static/css/main.9d96e31b.chunk.css.map": "/react-memory-game/./static/css/main.9d96e31b.chunk.css.map",
   "index.html": "/react-memory-game/./index.html",
-  "precache-manifest.6f8c03b89c6807096e51f6a6c020af98.js": "/react-memory-game/./precache-manifest.6f8c03b89c6807096e51f6a6c020af98.js",
+  "precache-manifest.ab591d48b3287ec30fe9a5d8823ac6fb.js": "/react-memory-game/./precache-manifest.ab591d48b3287ec30fe9a5d8823ac6fb.js",
   "service-worker.js": "/react-memory-game/./service-worker.js"
 }
