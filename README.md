@@ -9,8 +9,8 @@ To play the game locally.
 * Npm should start the game in a new tab of your default browser.
 
 You can also play a deployed version at https://dunkeltron.github.io/react-memory-game/
-##Gameplay
 
+##Gameplay
 The goal of this game is to click on all 12 Transformers characters with out clicking the same character twice. When the user clicks on the first character they get a point. After the click is registered the picture cards get shuffled around. If the user clicks n the same character twice their score gets reset and the game resets the state of all characters to unclicked.
 
 ## Available Scripts
